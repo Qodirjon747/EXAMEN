@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+    background: #272C3D;
+    font-family: "Quantico", serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.6px;
+    color: white;
+}
+nav ul li a:hover{
+    color: #FF9C28;
+}
+header input{
+    width: 241px;
+    height: 30px;
+    background: #404864;
+   border: none;
+   padding-top: 9px;
+}
+header select{
+    width: 165px;
+    height: 30px;
+    border: none;
+    background: #404864;
+    margin-left: 38px;
+    border-radius: 5px;
+    color: white;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+}
+.hero{
+    background-image: url("./img/Bg.png");
+    height: 654px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.major h1{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45.76px;
+    text-align: center;
+    color: white;
+}
+.major{
+    background-color: black;
+    padding-top: 45px;
+    padding-bottom: 59px;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.champion{
+    padding-top: 61px;
+    padding-bottom: 129px;
+    background: #1B1E27;
+}
+h2{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.32px;
+    color: white;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+    color: #BFBFBF;
+}
+.ada{
+    display: flex;
+    align-items: center;
+    gap: 17px;  
+}
+.ada2{
+    display: flex;
+    align-items: center;
+    gap: 17px;  
+    margin-top: 140px;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer{
+    padding-top: 22px;
+    padding-bottom: 10px;
+}
